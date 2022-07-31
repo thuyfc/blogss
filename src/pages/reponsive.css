@@ -1,0 +1,60 @@
+@media(min-width:320px) and (max-width:480px) {
+    .container {
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .rl-full {
+        width: 100%;
+    }
+
+    .rl-block {
+        display: block;
+
+    }
+
+    .rl-mr {
+        margin: 10px auto;
+    }
+
+    .text-left {
+        text-align: left;
+    }
+
+    .rp-h {
+        height: 100%;
+    }
+    .ml-rp{
+        margin-left: 5px;
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+    .container .rl-full {
+        width: 100%;
+    }
+
+    .rl-full {
+        width: 100%;
+    }
+
+    .w-nav {
+        width: 60%;
+    }
+
+    .rl-blocks {
+        display: block;
+
+    }
+ .rp-5{
+    padding: 5px;
+}
+
+.rp-h {
+    height: 100%;
+}
+   .h-rp{
+    height: 130px;
+   } 
+}

@@ -1,0 +1,102 @@
+@media(min-width:320px) and (max-width:480px) {
+.menu{
+    display: flex; 
+     margin: 20px 20px;
+    align-items: center;
+}
+.rl-full {
+    width: 100%;
+}
+.rl-block {
+    display: block;
+
+}
+.none-rp{
+    display: none;
+}
+.nav-mobile{
+    display: block;
+    left :0;
+    top: 75px;
+    transition:  all 0.5s ease;
+    width: 100%;
+}
+.nav-links{
+   display: none;
+}
+.nav-bar{
+    display: flex;
+    justify-content: center;
+
+}
+.nav-bar ul{
+    width: 50%;
+    text-align: center;
+}
+.hover-rp :hover{
+    background-color: rgb(245, 179, 11);
+}
+.login-rp{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.login-rp ul{
+    text-align: center;
+    margin: 0px auto;
+}
+}
+
+@media (min-width: 1024px) {
+    .flex-rp{
+        display: flex;
+    }
+  }
+  @media(min-width:768px) and (max-width:1024px) {
+    .menu{
+        display: flex;
+       
+         margin: 20px 20px;
+        align-items: center;
+    }
+    .items-center{
+        display: block;
+    }
+    .rp-block {
+        display: block;
+    
+    }
+    .none-rp{
+        display: none;
+    }
+    .nav-mobile{
+      
+        display: block;
+       
+        left :0;
+        top: 75px;
+        transition:  all 0.5s ease;
+        width: 100%;
+    }
+    .nav-links{
+       display: none;
+    }
+    .login-rp{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .login-rp ul{
+        text-align: center;
+        margin: 0px auto;
+    }
+    .nav-bar{
+        display: flex;
+        justify-content: center;
+    
+    }
+    .nav-bar ul{
+        width: 50%;
+        text-align: center;
+    }
+}
